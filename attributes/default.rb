@@ -1,0 +1,18 @@
+default['postgresql']['password'] = 'password'
+default['thrift']['version']  = '0.9.1'
+default['cassandra']['version'] = '1.2.16'
+
+default['reddit']['packages'] = ["git", "python-dev", "build-essential", "cython", "libxml2-dev", "libxslt1-dev", "libmemcached-dev", "libjpeg-dev", "zlib1g-dev", "python-setuptools", "libpq-dev", "python-imaging", "nodejs", "jpegoptim", "optipng", "git-core", "gettext", "node-less"]
+#default['reddit']['packages']['libxml2-dev'] = 'libxml2-dev'
+#default['reddit']['packages']['libxslt1-dev'] = 'libxslt1-dev'
+#default['reddit']['packages']['libmemcached-dev'] = 'libmemcached-dev'
+#default['reddit']['packages']['libjpeg-dev'] = 'libjpeg-dev'
+#default['reddit']['packages']['zlib1g-dev'] = 'zlib1g-dev'
+#default['reddit']['packages']['python-setuptools'] = 'python-setuptools'
+#default['reddit']['packages']['libpq-dev'] = 'libpq-dev'
+#default['reddit']['packages']['python-imaging'] = 'python-imaging'
+#default['reddit']['packages']['nodejs'] = 'nodejs'
+#default['reddit']['packages']['jpegoptim'] = 'jpegoptim'
+#default['reddit']['packages']['optipng'] = 'optipng'
+#default['reddit']['packages']['git-core'] = 'git-core'
+#default['reddit']['packages']['gettext'] = 'gettext'
